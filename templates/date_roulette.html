@@ -1,0 +1,28 @@
+<!-- templates/date_roulette.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Date Roulette - Date Night Navigator</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <script src="/static/js/app.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h2>Date Roulette</h2>
+        <p>Select your budget:</p>
+        <form id="budget-form">
+            <select name="budget" id="budget">
+                <option value="$">$ (up to $20)</option>
+                <option value="$$">$$ ($20-$50)</option>
+                <option value="$$$">$$$ ($50-$100)</option>
+                <option value="$$$$">$$$$ ($100-$200)</option>
+                <option value="$$$$$">$$$$$ (Above $200)</option>
+            </select><br>
+            <button type="submit" class="button">Spin the Wheel</button>
+        </form>
+        <div id="roulette-results"></div>
+        <a href="/dashboard" class="button">Back to Dashboard</a>
+    </div>
+</body>
+</html>
