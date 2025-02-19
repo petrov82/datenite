@@ -9,10 +9,11 @@ Make date nite fun
 2. Create Project Directory: Create a new directory and place all the files accordingly as shown in the project structure.
 
 3. Run the Server:
-
-bash
-go run main.go
-Access the App: Open your web browser and go to http://localhost:8080
+  
+  ```bash
+  go run main.go
+  ```
+4. Access the App: Open your web browser and go to http://localhost:8080
 
 ## Additional Notes
 
