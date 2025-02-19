@@ -1,0 +1,61 @@
+/* static/css/styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #1F2937;
+    color: #F3F4F6;
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+h1, h2, h3 {
+    color: #60A5FA;
+}
+
+.button {
+    background-color: #3B82F6;
+    color: #F3F4F6;
+    padding: 15px 25px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #2563EB;
+}
+
+input, select {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 80%;
+    max-width: 300px;
+}
+
+form {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#nights-letter {
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+#suggestions, #roulette-results {
+    margin-top: 20px;
+}
+
+a {
+    color: #60A5FA;
+}
